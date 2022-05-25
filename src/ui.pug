@@ -1,0 +1,16 @@
+form#form
+  label
+    span Min Distance
+    input#distance(type='number', min='1', max='999', value='10')
+  label
+    span Random Rotation
+    input#rotation(type='checkbox', name='rotation')
+
+  button#create(type='submit') Create
+
+script
+  include ../plugin/ui.js
+
+style
+  include ../plugin/ui.css
+  
